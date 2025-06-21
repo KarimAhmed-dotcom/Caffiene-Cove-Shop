@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded',() => {
             submit_btn.disabled = false;
             submit_btn.textContent = "Book a Table";
         });
-
+        document.getElementById("contact-form").reset();
 
         }
     }
